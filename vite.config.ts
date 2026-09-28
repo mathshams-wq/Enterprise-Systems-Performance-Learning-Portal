@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/Enterprise-Systems-Performance-Learning-Portal/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
