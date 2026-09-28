@@ -1,0 +1,148 @@
+@import "tailwindcss";
+
+/* -------------------------------------------------------------
+ * Theme Configurations
+ * Themes: dark (default), ocean-blue, olive
+ * ----------------------------------------------------------- */
+
+/* Global transition on theme change */
+body, [data-theme] {
+  transition: background-color 0.25s ease, border-color 0.25s ease, color 0.25s ease;
+}
+
+/* -------------------------------------------------------------
+ * 1. OCEAN BLUE THEME
+ * ----------------------------------------------------------- */
+[data-theme="ocean-blue"] {
+  color-scheme: dark;
+}
+
+[data-theme="ocean-blue"] body,
+[data-theme="ocean-blue"].min-h-screen,
+[data-theme="ocean-blue"] .bg-slate-950 {
+  background-color: #061325 !important;
+}
+
+[data-theme="ocean-blue"] .bg-slate-900 {
+  background-color: #0b203c !important;
+}
+
+[data-theme="ocean-blue"] .bg-slate-900\/50,
+[data-theme="ocean-blue"] .bg-slate-900\/60,
+[data-theme="ocean-blue"] .bg-slate-900\/80 {
+  background-color: rgba(11, 32, 60, 0.75) !important;
+}
+
+[data-theme="ocean-blue"] .bg-slate-800 {
+  background-color: #122f56 !important;
+}
+
+[data-theme="ocean-blue"] .bg-slate-800\/40,
+[data-theme="ocean-blue"] .bg-slate-800\/50,
+[data-theme="ocean-blue"] .bg-slate-800\/60,
+[data-theme="ocean-blue"] .bg-slate-800\/80,
+[data-theme="ocean-blue"] .bg-slate-800\/90 {
+  background-color: rgba(18, 47, 86, 0.65) !important;
+}
+
+[data-theme="ocean-blue"] .bg-slate-700 {
+  background-color: #1a4175 !important;
+}
+
+[data-theme="ocean-blue"] .border-slate-800,
+[data-theme="ocean-blue"] .border-slate-800\/60,
+[data-theme="ocean-blue"] .border-slate-800\/80 {
+  border-color: #163a69 !important;
+}
+
+[data-theme="ocean-blue"] .border-slate-700,
+[data-theme="ocean-blue"] .border-slate-700\/60,
+[data-theme="ocean-blue"] .border-slate-700\/80 {
+  border-color: #214d85 !important;
+}
+
+[data-theme="ocean-blue"] .hover\:bg-slate-800:hover {
+  background-color: #163a69 !important;
+}
+
+[data-theme="ocean-blue"] .hover\:bg-slate-700:hover {
+  background-color: #1e4a82 !important;
+}
+
+/* -------------------------------------------------------------
+ * 2. OLIVE THEME
+ * ----------------------------------------------------------- */
+[data-theme="olive"] {
+  color-scheme: dark;
+}
+
+[data-theme="olive"] body,
+[data-theme="olive"].min-h-screen,
+[data-theme="olive"] .bg-slate-950 {
+  background-color: #0b140e !important;
+}
+
+[data-theme="olive"] .bg-slate-900 {
+  background-color: #132317 !important;
+}
+
+[data-theme="olive"] .bg-slate-900\/50,
+[data-theme="olive"] .bg-slate-900\/60,
+[data-theme="olive"] .bg-slate-900\/80 {
+  background-color: rgba(19, 35, 23, 0.75) !important;
+}
+
+[data-theme="olive"] .bg-slate-800 {
+  background-color: #1c3523 !important;
+}
+
+[data-theme="olive"] .bg-slate-800\/40,
+[data-theme="olive"] .bg-slate-800\/50,
+[data-theme="olive"] .bg-slate-800\/60,
+[data-theme="olive"] .bg-slate-800\/80,
+[data-theme="olive"] .bg-slate-800\/90 {
+  background-color: rgba(28, 53, 35, 0.65) !important;
+}
+
+[data-theme="olive"] .bg-slate-700 {
+  background-color: #284a32 !important;
+}
+
+[data-theme="olive"] .border-slate-800,
+[data-theme="olive"] .border-slate-800\/60,
+[data-theme="olive"] .border-slate-800\/80 {
+  border-color: #22402b !important;
+}
+
+[data-theme="olive"] .border-slate-700,
+[data-theme="olive"] .border-slate-700\/60,
+[data-theme="olive"] .border-slate-700\/80 {
+  border-color: #2f563a !important;
+}
+
+[data-theme="olive"] .hover\:bg-slate-800:hover {
+  background-color: #22402b !important;
+}
+
+[data-theme="olive"] .hover\:bg-slate-700:hover {
+  background-color: #2a5036 !important;
+}
+
+[data-theme="olive"] .text-sky-400 {
+  color: #a3e635 !important;
+}
+
+[data-theme="olive"] .border-sky-500,
+[data-theme="olive"] .border-sky-500\/30,
+[data-theme="olive"] .border-sky-500\/40 {
+  border-color: #65a30d !important;
+}
+
+[data-theme="olive"] .bg-sky-500,
+[data-theme="olive"] .bg-sky-600 {
+  background-color: #4d7c0f !important;
+}
+
+[data-theme="olive"] .hover\:bg-sky-500:hover {
+  background-color: #3f6212 !important;
+}
